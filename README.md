@@ -77,6 +77,6 @@ GitHub is where I publish engineering experiments, frameworks, applications, and
 
 <div align="center">
 
-**Explore:** [Website](https://psalimi.ir/) · [Portfolio](https://peymanpro.github.io/portfolio/) · [GitHub](https://github.com/peymanpro) · [Google Scholar](https://scholar.google.com/citations?user=1By69aAAAAAJ&hl=en)
+**Explore:** [Portfolio](https://peymanpro.github.io/portfolio/) · [GitHub](https://github.com/peymanpro) · [Google Scholar](https://scholar.google.com/citations?user=1By69aAAAAAJ&hl=en)
 
 </div>
