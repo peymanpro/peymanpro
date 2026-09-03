@@ -6,7 +6,7 @@
 
 *Designing software with clear boundaries, dependable behavior, and room to evolve.*
 
-[Website](https://psalimi.ir/) · [Portfolio](https://peymanpro.github.io/portfolio/) · [Google Scholar](https://scholar.google.com/citations?user=1By69aAAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/psalimi)
+ [Portfolio](https://peymanpro.github.io/portfolio/) · [Google Scholar](https://scholar.google.com/citations?user=1By69aAAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/psalimi)
 
 </div>
 
@@ -65,7 +65,7 @@ For publications and scholarly record, visit my [Google Scholar profile](https:/
 | --- | --- |
 | **Languages** | C#, TypeScript, JavaScript, Python |
 | **Systems & backend** | .NET, ASP.NET Core, APIs, caching, messaging, distributed-state concerns |
-| **Frontend** | React, Next.js, frontend architecture |
+| **Frontend** | React, Next.js, Angular,Blazor |
 | **Engineering practice** | Domain modelling, testing, observability, reliability, maintainable system boundaries |
 | **Research direction** | Adaptive software, learning systems, mathematical modelling |
 
