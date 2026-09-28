@@ -6,7 +6,7 @@
 
 *Designing software with clear boundaries, dependable behavior, and room to evolve.*
 
- [Portfolio](https://peymanpro.github.io/portfolio/) · [Google Scholar](https://scholar.google.com/citations?user=1By69aAAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/psalimi)
+ 
 
 </div>
 
