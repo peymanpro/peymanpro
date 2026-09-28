@@ -2,8 +2,6 @@
 
 <img src="./assets/profile-hero.svg" alt="Peyman Salimi — AI Engineer, Software Engineer, Mathematical Researcher" width="100%"/>
 
-[Portfolio](https://peymanpro.github.io/portfolio/) · [Google Scholar](https://scholar.google.com/citations?user=1By69aAAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/psalimi)
-
 </div>
 
 ---
@@ -20,27 +18,54 @@ My current direction is **AI Engineering with strong mathematical and software-e
 
 <table>
 <tr>
-<td align="center"><strong>Problem</strong><br/><sub>Understand structure & constraints</sub></td>
-<td align="center">→</td>
-<td align="center"><strong>Model</strong><br/><sub>Make assumptions explicit</sub></td>
-<td align="center">→</td>
-<td align="center"><strong>Algorithm / AI</strong><br/><sub>Choose & implement a method</sub></td>
-<td align="center">→</td>
-<td align="center"><strong>System</strong><br/><sub>Make behavior reliable</sub></td>
-<td align="center">→</td>
-<td align="center"><strong>Outcome</strong><br/><sub>Measure & improve</sub></td>
+<td align="center" width="20%"><strong>Problem</strong><br/><sub>Structure & constraints</sub></td>
+<td align="center" width="5%">→</td>
+<td align="center" width="20%"><strong>Model</strong><br/><sub>Assumptions & representation</sub></td>
+<td align="center" width="5%">→</td>
+<td align="center" width="20%"><strong>Algorithm / AI</strong><br/><sub>Method & implementation</sub></td>
+<td align="center" width="5%">→</td>
+<td align="center" width="20%"><strong>System</strong><br/><sub>Reliable behavior</sub></td>
+<td align="center" width="5%">→</td>
+<td align="center" width="20%"><strong>Outcome</strong><br/><sub>Measure & improve</sub></td>
 </tr>
 </table>
 
 ## What I build
 
-| | |
-| --- | --- |
-| **AI Engineering** | RAG, embeddings, retrieval, reranking, grounded generation, citation verification, evaluation |
-| **Mathematical AI** | Mathematical modelling, optimization, numerical algorithms, and research-driven learning methods |
-| **Intelligent & Adaptive Systems** | Systems that observe, learn from evidence, decide, adapt, and evaluate outcomes |
-| **Software Engineering** | Architecture, APIs, backend systems, distributed concerns, testing, reliability, and maintainable boundaries |
-| **Research Engineering** | Turning research ideas into reproducible implementations, experiments, benchmarks, and usable software |
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### AI Engineering
+
+RAG systems, embeddings, information retrieval, hybrid search, reranking, grounded generation, citation verification, evaluation, and AI-backed services.
+
+</td>
+<td width="50%" valign="top">
+
+### Mathematical AI
+
+Mathematical modelling, optimization, numerical algorithms, and research-driven learning methods where problem structure informs computation.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Intelligent & Adaptive Systems
+
+Systems that observe execution, learn from evidence, make decisions, adapt behavior, and evaluate the result through explicit feedback loops.
+
+</td>
+<td width="50%" valign="top">
+
+### Software & Research Engineering
+
+Architecture, APIs, backend and distributed systems, testing, reliability, reproducibility, experiments, benchmarks, and research implementations.
+
+</td>
+</tr>
+</table>
 
 ## Selected evidence
 
@@ -89,13 +114,24 @@ An exploration connecting **metaheuristic optimization, event-driven architectur
 </tr>
 </table>
 
-[Browse the full portfolio →](https://peymanpro.github.io/portfolio/) · [Browse all repositories →](https://github.com/peymanpro?tab=repositories)
+[Browse all repositories →](https://github.com/peymanpro?tab=repositories)
 
-## Research & professional identity
+## Professional, Research & Online Identity
 
 <table>
 <tr>
-<td valign="top">
+<td width="33%" valign="top">
+
+**Primary**
+
+[Website](https://psalimi.ir/)  
+[Research](https://psalimi.ir/en/research)  
+[Portfolio](https://peymanpro.github.io/portfolio/)  
+[GitHub](https://github.com/peymanpro)  
+[LinkedIn](https://www.linkedin.com/in/psalimi)
+
+</td>
+<td width="33%" valign="top">
 
 **Scholarly**
 
@@ -108,16 +144,16 @@ An exploration connecting **metaheuristic optimization, event-driven architectur
 [Zenodo](https://doi.org/10.5281/zenodo.22142517)
 
 </td>
-<td valign="top">
+<td width="34%" valign="top">
 
-**Professional / technical**
+**Technical Community**
 
-[Website](https://psalimi.ir/)  
-[Research](https://psalimi.ir/en/research)  
-[LinkedIn](https://www.linkedin.com/in/psalimi)  
 [DEV Community](https://dev.to/peymanpro)  
-[Stack Overflow](https://stackoverflow.com/users/33163948)  
-[GitHub](https://github.com/peymanpro)
+[Stack Overflow](https://stackoverflow.com/users/33163948)
+
+<br/>
+
+Established identities and research-artifact records are listed here. Pending identity claims are intentionally omitted until independently verified.
 
 </td>
 </tr>
@@ -127,33 +163,62 @@ An exploration connecting **metaheuristic optimization, event-driven architectur
 
 My academic work is grounded in **mathematics**, with research spanning fixed-point and best-proximity-point theory, fuzzy analysis, differential and integral equations, and related mathematical modelling.
 
-That background is not separate from my engineering work. It influences how I formulate problems, reason about algorithms, and investigate methods that can be implemented and evaluated.
-
-[Research profile →](https://psalimi.ir/en/research) · [Google Scholar →](https://scholar.google.com/citations?user=1By69aAAAAAJ&hl=en)
+That background is not separate from my engineering work. It influences how I formulate problems, reason about algorithms, investigate learning methods, and turn research ideas into implementations that can be tested and evaluated.
 
 ## Engineering foundations
 
-| | Technologies and practices |
-| --- | --- |
-| **Languages** | C#, Python, TypeScript, JavaScript |
-| **AI / ML** | Machine Learning, Deep Learning, LLMs, RAG, Embeddings, Information Retrieval, Optimization |
-| **Backend & systems** | .NET, ASP.NET Core, APIs, PostgreSQL, Redis, messaging, distributed systems |
-| **Frontend** | React, Next.js, Angular, Blazor |
-| **Engineering** | Architecture, domain modelling, testing, observability, reliability, reproducibility |
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Languages**
+
+C# · Python · TypeScript · JavaScript
+
+**AI / ML**
+
+Machine Learning · Deep Learning · LLMs · RAG · Embeddings · Information Retrieval · Optimization
+
+</td>
+<td width="50%" valign="top">
+
+**Backend & systems**
+
+.NET · ASP.NET Core · APIs · PostgreSQL · Redis · Messaging · Distributed Systems
+
+**Frontend**
+
+React · Next.js · Angular · Blazor
+
+</td>
+</tr>
+</table>
 
 ## How I work
 
 > **Understand the problem before optimizing the implementation.**
 
-I try to keep important reasoning visible:
+I keep the important reasoning visible:
 
-1. Define the problem and its constraints.
-2. Establish a baseline.
-3. Choose a model or algorithm for a reason.
-4. Test the important behavior.
-5. Measure what can be measured.
-6. Analyze failures rather than hiding them.
-7. Turn successful experiments into maintainable software.
+<table>
+<tr>
+<td align="center" width="14%"><strong>01</strong><br/><sub>Define</sub></td>
+<td align="center">→</td>
+<td align="center" width="14%"><strong>02</strong><br/><sub>Baseline</sub></td>
+<td align="center">→</td>
+<td align="center" width="14%"><strong>03</strong><br/><sub>Choose</sub></td>
+<td align="center">→</td>
+<td align="center" width="14%"><strong>04</strong><br/><sub>Test</sub></td>
+<td align="center">→</td>
+<td align="center" width="14%"><strong>05</strong><br/><sub>Measure</sub></td>
+<td align="center">→</td>
+<td align="center" width="14%"><strong>06</strong><br/><sub>Analyze</sub></td>
+<td align="center">→</td>
+<td align="center" width="14%"><strong>07</strong><br/><sub>Improve</sub></td>
+</tr>
+</table>
+
+The goal is not simply to make a system work, but to understand **why it works, where it fails, and how its behavior can be improved**.
 
 ## Current direction
 
@@ -165,6 +230,6 @@ I am particularly interested in AI systems that do more than generate output: sy
 
 <div align="center">
 
-[Portfolio](https://peymanpro.github.io/portfolio/) · [Website](https://psalimi.ir/) · [Research](https://psalimi.ir/en/research) · [GitHub](https://github.com/peymanpro) · [Google Scholar](https://scholar.google.com/citations?user=1By69aAAAAAJ&hl=en)
+*research · engineering · intelligent systems*
 
 </div>
