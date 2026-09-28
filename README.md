@@ -16,6 +16,28 @@ I work at the intersection of **software architecture, full-stack engineering, a
 
 My mathematical background informs that approach. It brings a preference for precise models, explicit assumptions, and implementations that make important behavior observable rather than accidental.
 
+## Professional & research profiles
+
+| | |
+| --- | --- |
+| **Website** | [psalimi.ir](https://psalimi.ir/) · [Research](https://psalimi.ir/en/research) |
+| **Portfolio** | [peymanpro.github.io/portfolio](https://peymanpro.github.io/portfolio/) |
+| **Google Scholar** | [Peyman Salimi](https://scholar.google.com/citations?user=1By69aAAAAAJ&hl=en) |
+| **ORCID** | [0000-0002-8763-8394](https://orcid.org/0000-0002-8763-8394) |
+| **ResearchGate** | [Peyman Salimi](https://www.researchgate.net/profile/Peyman-Salimi) |
+| **Academia** | [Peyman Salimi](https://sut.academia.edu/PeymanSalimi) |
+| **LinkedIn** | [Peyman Salimi](https://www.linkedin.com/in/psalimi) |
+| **GitHub** | [peymanpro](https://github.com/peymanpro) |
+| **DEV Community** | [@peymanpro](https://dev.to/peymanpro) |
+| **Stack Overflow** | [Peyman Salimi](https://stackoverflow.com/users/33163948) |
+| **zbMATH** | [salimi.peyman](https://zbmath.org/authors/?q=ai:salimi.peyman) |
+| **MaRDI** | [Peyman Salimi · Q251343](https://portal.mardi4nfdi.de/wiki/Item:Q251343) |
+| **Zenodo** | [LNASF research artifact](https://doi.org/10.5281/zenodo.22142517) |
+
+These links represent established professional, scholarly, technical, and research-artifact identities or records. Pending identity claims are intentionally omitted until independently verified.
+
+---
+
 ## Engineering focus
 
 | Area | What I focus on |
