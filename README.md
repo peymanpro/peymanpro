@@ -1,104 +1,170 @@
 <div align="center">
 
-# Peyman Salimi
+<img src="./assets/profile-hero.svg" alt="Peyman Salimi — AI Engineer, Software Engineer, Mathematical Researcher" width="100%"/>
 
-### Software architect and research-minded full-stack engineer
-
-*Designing software with clear boundaries, dependable behavior, and room to evolve.*
-
- 
+[Portfolio](https://peymanpro.github.io/portfolio/) · [Google Scholar](https://scholar.google.com/citations?user=1By69aAAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/psalimi)
 
 </div>
 
 ---
 
-I work at the intersection of **software architecture, full-stack engineering, and intelligent/adaptive software**. My interest is not just in delivering an application, but in the decisions that let a system remain understandable under change: boundaries, state, failure modes, testability, and the trade-offs behind them.
+## The thread connecting my work
 
-My mathematical background informs that approach. It brings a preference for precise models, explicit assumptions, and implementations that make important behavior observable rather than accidental.
+I work at the intersection of **AI engineering, mathematical research, algorithms, and software engineering**.
 
-## Professional & research profiles
+My mathematical background shapes how I approach engineering problems: understand the structure, make assumptions explicit, choose a suitable model or method, implement it carefully, and evaluate what actually happened.
+
+My current direction is **AI Engineering with strong mathematical and software-engineering foundations**, especially for systems involving retrieval, learning, optimization, adaptation, and decision-making.
+
+### From problem to outcome
+
+<table>
+<tr>
+<td align="center"><strong>Problem</strong><br/><sub>Understand structure & constraints</sub></td>
+<td align="center">→</td>
+<td align="center"><strong>Model</strong><br/><sub>Make assumptions explicit</sub></td>
+<td align="center">→</td>
+<td align="center"><strong>Algorithm / AI</strong><br/><sub>Choose & implement a method</sub></td>
+<td align="center">→</td>
+<td align="center"><strong>System</strong><br/><sub>Make behavior reliable</sub></td>
+<td align="center">→</td>
+<td align="center"><strong>Outcome</strong><br/><sub>Measure & improve</sub></td>
+</tr>
+</table>
+
+## What I build
 
 | | |
 | --- | --- |
-| **Website** | [psalimi.ir](https://psalimi.ir/) · [Research](https://psalimi.ir/en/research) |
-| **Portfolio** | [peymanpro.github.io/portfolio](https://peymanpro.github.io/portfolio/) |
-| **Google Scholar** | [Peyman Salimi](https://scholar.google.com/citations?user=1By69aAAAAAJ&hl=en) |
-| **ORCID** | [0000-0002-8763-8394](https://orcid.org/0000-0002-8763-8394) |
-| **ResearchGate** | [Peyman Salimi](https://www.researchgate.net/profile/Peyman-Salimi) |
-| **Academia** | [Peyman Salimi](https://sut.academia.edu/PeymanSalimi) |
-| **LinkedIn** | [Peyman Salimi](https://www.linkedin.com/in/psalimi) |
-| **GitHub** | [peymanpro](https://github.com/peymanpro) |
-| **DEV Community** | [@peymanpro](https://dev.to/peymanpro) |
-| **Stack Overflow** | [Peyman Salimi](https://stackoverflow.com/users/33163948) |
-| **zbMATH** | [salimi.peyman](https://zbmath.org/authors/?q=ai:salimi.peyman) |
-| **MaRDI** | [Peyman Salimi · Q251343](https://portal.mardi4nfdi.de/wiki/Item:Q251343) |
-| **Zenodo** | [LNASF research artifact](https://doi.org/10.5281/zenodo.22142517) |
+| **AI Engineering** | RAG, embeddings, retrieval, reranking, grounded generation, citation verification, evaluation |
+| **Mathematical AI** | Mathematical modelling, optimization, numerical algorithms, and research-driven learning methods |
+| **Intelligent & Adaptive Systems** | Systems that observe, learn from evidence, decide, adapt, and evaluate outcomes |
+| **Software Engineering** | Architecture, APIs, backend systems, distributed concerns, testing, reliability, and maintainable boundaries |
+| **Research Engineering** | Turning research ideas into reproducible implementations, experiments, benchmarks, and usable software |
 
-These links represent established professional, scholarly, technical, and research-artifact identities or records. Pending identity claims are intentionally omitted until independently verified.
+## Selected evidence
 
----
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## Engineering focus
+### [Evidence-Grounded-RAG](https://github.com/peymanpro/Evidence-Grounded-RAG)
 
-| Area | What I focus on |
-| --- | --- |
-| **Architecture & system design** | Establishing useful boundaries, modelling domains and APIs, and keeping systems maintainable as requirements change. |
-| **Backend & distributed concerns** | Concurrency, distributed state, caching, messaging, reliability, and deliberate failure handling. |
-| **Full-stack delivery** | Connecting backend design with product-facing interfaces instead of treating the frontend and backend as isolated concerns. |
-| **Intelligent & adaptive software** | Exploring system architectures that observe execution, learn from feedback, and adapt behavior within explicit evaluation loops. |
-| **Research-driven engineering** | Bringing mathematical reasoning and research questions into practical software design and prototypes. |
+A research-oriented RAG system focused on **evidence retrieval, hybrid search, reranking, grounded generation, citation verification, and measurable evaluation**.
 
-## Selected work
+<code>AI Engineering</code> <code>RAG</code> <code>Information Retrieval</code>
 
-The repositories below are a deliberately small slice of my public work. Together, they show the direction of my open-source exploration: reusable engineering foundations, systems concerns, and research-oriented software—not a catalogue of every experiment.
+</td>
+<td width="50%" valign="top">
 
-### [LNASF — Learning-Native Adaptive Software Framework](https://github.com/peymanpro/LNASF)
+### [LNASF](https://github.com/peymanpro/LNASF)
 
-An exploration of the architectural foundations of **learning-native adaptive software**: software that can observe its execution, learn from evidence, decide on adjustments, and evaluate the result. LNASF is the clearest expression of my interest in connecting software architecture with intelligent-system feedback loops.
+A research-oriented framework exploring **learning-native adaptive software** through the loop:
 
-`Research software` · `Adaptive systems` · `Architecture`
+**observe → learn → decide → adapt → evaluate**
 
-### More public work
+<code>Research Software</code> <code>Adaptive Systems</code>
 
-Browse the [repositories](https://github.com/peymanpro?tab=repositories) for the supporting work around these themes, including system experiments, application engineering, and research implementations. I prefer to describe a project’s concrete design and limits in its own repository rather than inflate a profile-level summary.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-## How I approach engineering
+### [Convex QP Solver](https://github.com/peymanpro/Convex-Quadratic-Programming-Solver)
 
-> **Make the important behavior explicit.**
+A mathematical optimization implementation focused on **convex quadratic programming, numerical reasoning, correctness, and testing**.
 
-- Start with the system’s responsibilities and the contracts between them.
-- Treat concurrency, state, errors, and observability as design concerns—not late-stage fixes.
-- Favor small, testable units and evidence-driven trade-offs over abstraction for its own sake.
-- Use research as a source of better questions and models, then validate ideas in working software.
+<code>Optimization</code> <code>Numerical Algorithms</code>
 
-## Intelligent systems
+</td>
+<td width="50%" valign="top">
 
-My work on intelligent software is architecture-led. Rather than using “AI” as a feature label, I am interested in the surrounding system: how it collects observations, represents feedback, makes decisions, constrains adaptation, and evaluates outcomes. The **observe → learn → decide → adapt → evaluate** loop explored in [LNASF](https://github.com/peymanpro/LNASF) is a practical anchor for that direction.
+### [Event-Driven Metaheuristic Optimization](https://github.com/peymanpro/Event-Driven-Metaheuristic-Optimization)
+
+An exploration connecting **metaheuristic optimization, event-driven architecture, and reproducible experimentation**.
+
+<code>Optimization</code> <code>Algorithms</code>
+
+</td>
+</tr>
+</table>
+
+[Browse the full portfolio →](https://peymanpro.github.io/portfolio/) · [Browse all repositories →](https://github.com/peymanpro?tab=repositories)
+
+## Research & professional identity
+
+<table>
+<tr>
+<td valign="top">
+
+**Scholarly**
+
+[Google Scholar](https://scholar.google.com/citations?user=1By69aAAAAAJ&hl=en)  
+[ORCID](https://orcid.org/0000-0002-8763-8394)  
+[ResearchGate](https://www.researchgate.net/profile/Peyman-Salimi)  
+[Academia](https://sut.academia.edu/PeymanSalimi)  
+[zbMATH](https://zbmath.org/authors/?q=ai:salimi.peyman)  
+[MaRDI](https://portal.mardi4nfdi.de/wiki/Item:Q251343)  
+[Zenodo](https://doi.org/10.5281/zenodo.22142517)
+
+</td>
+<td valign="top">
+
+**Professional / technical**
+
+[Website](https://psalimi.ir/)  
+[Research](https://psalimi.ir/en/research)  
+[LinkedIn](https://www.linkedin.com/in/psalimi)  
+[DEV Community](https://dev.to/peymanpro)  
+[Stack Overflow](https://stackoverflow.com/users/33163948)  
+[GitHub](https://github.com/peymanpro)
+
+</td>
+</tr>
+</table>
 
 ## Research background
 
-My academic work is grounded in **mathematics**, with research interests spanning fixed-point and best-proximity-point theory, fuzzy analysis, and differential and integral equations. That foundation complements my engineering work: it encourages careful abstraction and analytical reasoning when building software systems.
+My academic work is grounded in **mathematics**, with research spanning fixed-point and best-proximity-point theory, fuzzy analysis, differential and integral equations, and related mathematical modelling.
 
-For publications and scholarly record, visit my [Google Scholar profile](https://scholar.google.com/citations?user=1By69aAAAAAJ&hl=en).
+That background is not separate from my engineering work. It influences how I formulate problems, reason about algorithms, and investigate methods that can be implemented and evaluated.
 
-## Technology landscape
+[Research profile →](https://psalimi.ir/en/research) · [Google Scholar →](https://scholar.google.com/citations?user=1By69aAAAAAJ&hl=en)
 
-| | Technologies and practices I use or explore in public work |
+## Engineering foundations
+
+| | Technologies and practices |
 | --- | --- |
-| **Languages** | C#, TypeScript, JavaScript, Python |
-| **Systems & backend** | .NET, ASP.NET Core, APIs, caching, messaging, distributed-state concerns |
-| **Frontend** | React, Next.js, Angular,Blazor |
-| **Engineering practice** | Domain modelling, testing, observability, reliability, maintainable system boundaries |
-| **Research direction** | Adaptive software, learning systems, mathematical modelling |
+| **Languages** | C#, Python, TypeScript, JavaScript |
+| **AI / ML** | Machine Learning, Deep Learning, LLMs, RAG, Embeddings, Information Retrieval, Optimization |
+| **Backend & systems** | .NET, ASP.NET Core, APIs, PostgreSQL, Redis, messaging, distributed systems |
+| **Frontend** | React, Next.js, Angular, Blazor |
+| **Engineering** | Architecture, domain modelling, testing, observability, reliability, reproducibility |
 
-## Open source & current directions
+## How I work
 
-GitHub is where I publish engineering experiments, frameworks, applications, and research-oriented implementations. Current public directions center on **software architecture**, **distributed-system concerns**, and **intelligent/adaptive software**—with an emphasis on making difficult system behavior concrete enough to inspect, test, and improve.
+> **Understand the problem before optimizing the implementation.**
+
+I try to keep important reasoning visible:
+
+1. Define the problem and its constraints.
+2. Establish a baseline.
+3. Choose a model or algorithm for a reason.
+4. Test the important behavior.
+5. Measure what can be measured.
+6. Analyze failures rather than hiding them.
+7. Turn successful experiments into maintainable software.
+
+## Current direction
+
+**Mathematical Reasoning + Machine Learning + AI Systems + Optimization + Software Engineering**
+
+I am particularly interested in AI systems that do more than generate output: systems that **retrieve evidence, reason over structured information, optimize decisions, learn from feedback, and remain inspectable and reliable**.
 
 ---
 
 <div align="center">
 
-**Explore:** [Portfolio](https://peymanpro.github.io/portfolio/) · [GitHub](https://github.com/peymanpro) · [Google Scholar](https://scholar.google.com/citations?user=1By69aAAAAAJ&hl=en)
+[Portfolio](https://peymanpro.github.io/portfolio/) · [Website](https://psalimi.ir/) · [Research](https://psalimi.ir/en/research) · [GitHub](https://github.com/peymanpro) · [Google Scholar](https://scholar.google.com/citations?user=1By69aAAAAAJ&hl=en)
 
 </div>
