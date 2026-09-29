@@ -124,7 +124,7 @@ An exploration connecting **metaheuristic optimization, event-driven architectur
 
 **Primary**
 
-[Website](https://psalimi.ir/)  
+
 [Research](https://psalimi.ir/en/research)  
 [Portfolio](https://peymanpro.github.io/portfolio/)  
 [GitHub](https://github.com/peymanpro)  
