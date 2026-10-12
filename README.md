@@ -6,225 +6,143 @@
 
 ---
 
-## The thread connecting my work
+## AI engineering grounded in mathematics and software design
 
-I work at the intersection of **AI engineering, mathematical research, algorithms, and software engineering**.
+I build **AI-backed applications and reliable software systems**, using mathematical modelling and quantitative methods to make behavior explicit, testable, and measurable.
 
-My mathematical background shapes how I approach engineering problems: understand the structure, make assumptions explicit, choose a suitable model or method, implement it carefully, and evaluate what actually happened.
+My work connects **AI engineering, software architecture, algorithms, and mathematical research**. I am particularly interested in systems that retrieve evidence, adapt pretrained models, evaluate AI behavior, optimize decisions, and remain inspectable when something goes wrong.
 
-My current direction is **AI Engineering with strong mathematical and software-engineering foundations**, especially for systems involving retrieval, learning, optimization, adaptation, and decision-making.
+**Current focus:** evidence-grounded decision support · LLM adaptation · AI evaluation · reliable agent runtimes · search engineering · .NET infrastructure.
 
-### From problem to outcome
+## Selected engineering work
 
-<table>
-<tr>
-<td align="center" width="20%"><strong>Problem</strong><br/><sub>Structure & constraints</sub></td>
-<td align="center" width="5%">→</td>
-<td align="center" width="20%"><strong>Model</strong><br/><sub>Assumptions & representation</sub></td>
-<td align="center" width="5%">→</td>
-<td align="center" width="20%"><strong>Algorithm / AI</strong><br/><sub>Method & implementation</sub></td>
-<td align="center" width="5%">→</td>
-<td align="center" width="20%"><strong>System</strong><br/><sub>Reliable behavior</sub></td>
-<td align="center" width="5%">→</td>
-<td align="center" width="20%"><strong>Outcome</strong><br/><sub>Measure & improve</sub></td>
-</tr>
-</table>
-
-## What I build
+These six repositories provide the clearest view of how I work across AI, backend systems, and applied engineering.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### AI Engineering
+### [Evidence-Grounded Decision Support](https://github.com/peymanpro/Evidence-Grounded-Decision-Support)
 
-RAG systems, embeddings, information retrieval, hybrid search, reranking, grounded generation, citation verification, evaluation, and AI-backed services.
+An AI-assisted decision-support backend combining deterministic quantitative analysis with evidence provenance, bounded research retrieval, adaptive interviews, specialist perspectives, evaluation artifacts, safety checks, and audit events.
+
+**Stack:** Python · FastAPI · PostgreSQL · SQLAlchemy · Docker
+
+[Repository](https://github.com/peymanpro/Evidence-Grounded-Decision-Support) · [Latest release](https://github.com/peymanpro/Evidence-Grounded-Decision-Support/releases)
 
 </td>
 <td width="50%" valign="top">
 
-### Mathematical AI
+### [Pretrained LLM Adaptation](https://github.com/peymanpro/Pretrained-LLM-Adaptation)
 
-Mathematical modelling, optimization, numerical algorithms, and research-driven learning methods where problem structure informs computation.
+A reproducible downstream NLP workflow using BANKING77 and DeBERTa-v3-small: dataset checks, baselines, frozen-encoder training, LoRA/PEFT adaptation, held-out evaluation, error analysis, and inference.
+
+**Focus:** model adaptation · experimental control · reproducibility
+
+[Repository](https://github.com/peymanpro/Pretrained-LLM-Adaptation) · [Latest release](https://github.com/peymanpro/Pretrained-LLM-Adaptation/releases)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### Intelligent & Adaptive Systems
+### [AI Evaluation Engineering](https://github.com/peymanpro/AI-Evaluation-Engineering)
 
-Systems that observe execution, learn from evidence, make decisions, adapt behavior, and evaluate the result through explicit feedback loops.
+A provider-neutral evaluation layer with typed test cases, reusable graders, agent-trajectory analysis, security regression cases, statistical comparisons, quality/cost trade-offs, and regression gates.
+
+**Focus:** measurable AI quality · repeatable evaluation · failure analysis
+
+[Repository](https://github.com/peymanpro/AI-Evaluation-Engineering) · [Latest release](https://github.com/peymanpro/AI-Evaluation-Engineering/releases)
 
 </td>
 <td width="50%" valign="top">
 
-### Software & Research Engineering
+### [Production Agent Systems](https://github.com/peymanpro/Production-Agent-Systems)
 
-Architecture, APIs, backend and distributed systems, testing, reliability, reproducibility, experiments, benchmarks, and research implementations.
+A runnable, provider-neutral agent runtime demonstrating structured tool contracts, permission checks, bounded retries and timeouts, checkpoints, recovery, circuit breaking, trace, audit, and replay.
+
+**Focus:** reliability · runtime policy · safe tool execution
+
+[Repository](https://github.com/peymanpro/Production-Agent-Systems) · [Latest release](https://github.com/peymanpro/Production-Agent-Systems/releases)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Elasticsearch Search Platform](https://github.com/peymanpro/Elasticsearch-Search-Platform)
+
+A Django REST Framework application centred on practical search engineering: index design, text analysis, relevance, fuzzy matching, autocomplete, facets, filtering, pagination, and explainability.
+
+**Stack:** Python · Django REST Framework · Elasticsearch · Docker
+
+[Repository](https://github.com/peymanpro/Elasticsearch-Search-Platform) · [Latest release](https://github.com/peymanpro/Elasticsearch-Search-Platform/releases)
+
+</td>
+<td width="50%" valign="top">
+
+### [RateLimitEngine](https://github.com/peymanpro/RateLimitEngine)
+
+An extensible .NET 8 rate-limiting library built around concurrency safety, deterministic behavior, in-memory and Redis-backed state, ASP.NET Core integration, weighted requests, observability, and explicit failure semantics.
+
+**Stack:** C# · .NET 8 · ASP.NET Core · Redis · NuGet
+
+[Repository](https://github.com/peymanpro/RateLimitEngine) · [Release v1.0.0](https://github.com/peymanpro/RateLimitEngine/releases/tag/v1.0.0)
 
 </td>
 </tr>
 </table>
 
-## Selected evidence
+[Browse all public repositories →](https://github.com/peymanpro?tab=repositories)
 
-<table>
-<tr>
-<td width="50%" valign="top">
+## How I approach engineering
 
-### [Evidence-Grounded-RAG](https://github.com/peymanpro/Evidence-Grounded-RAG)
+I aim to make the reasoning behind a system visible, not just make the happy path work.
 
-A research-oriented RAG system focused on **evidence retrieval, hybrid search, reranking, grounded generation, citation verification, and measurable evaluation**.
+**Define the problem → establish a baseline → choose a method → implement → test → measure → analyze failures → improve.**
 
-<code>AI Engineering</code> <code>RAG</code> <code>Information Retrieval</code>
+I prefer deterministic behavior where it is practical, explicit boundaries around model and provider calls, reproducible experiments, and claims supported by tests or measured evidence. Passing automated checks is useful evidence about a codebase; it is not, by itself, proof of real-world performance or complete production readiness.
 
-</td>
-<td width="50%" valign="top">
+## Mathematical and research background
 
-### [LNASF](https://github.com/peymanpro/LNASF)
+My academic work is grounded in mathematics, including fixed-point and best-proximity-point theory, fuzzy analysis, differential and integral equations, and related mathematical modelling.
 
-A research-oriented framework exploring **learning-native adaptive software** through the loop:
+That background influences how I formulate constraints, reason about algorithms, study learning methods, and evaluate computational behavior.
 
-**observe → learn → decide → adapt → evaluate**
+I also develop **[Learning-Native Adaptive Software Framework (LNASF)](https://github.com/peymanpro/Learning-Native-Adaptive-Software-Framewor-Or-LNASF)**, a research direction exploring software components that observe outcomes, learn from evidence, adapt under explicit policies, and evaluate their behavior. Its proposed contribution is still under validation; the reference implementations demonstrate selected ideas rather than a fully validated general framework.
 
-<code>Research Software</code> <code>Adaptive Systems</code>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [Convex QP Solver](https://github.com/peymanpro/Convex-Quadratic-Programming-Solver)
-
-A mathematical optimization implementation focused on **convex quadratic programming, numerical reasoning, correctness, and testing**.
-
-<code>Optimization</code> <code>Numerical Algorithms</code>
-
-</td>
-<td width="50%" valign="top">
-
-### [Event-Driven Metaheuristic Optimization](https://github.com/peymanpro/Event-Driven-Metaheuristic-Optimization)
-
-An exploration connecting **metaheuristic optimization, event-driven architecture, and reproducible experimentation**.
-
-<code>Optimization</code> <code>Algorithms</code>
-
-</td>
-</tr>
-</table>
-
-[Browse all repositories →](https://github.com/peymanpro?tab=repositories)
-
-## Professional, Research & Online Identity
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-**Primary**
-
-
-[Research](https://psalimi.ir/en/research)  
-[Portfolio](https://peymanpro.github.io/portfolio/)  
-[GitHub](https://github.com/peymanpro)  
-[LinkedIn](https://www.linkedin.com/in/psalimi)
-
-</td>
-<td width="33%" valign="top">
-
-**Scholarly**
-
-[Google Scholar](https://scholar.google.com/citations?user=1By69aAAAAAJ&hl=en)  
-[ORCID](https://orcid.org/0000-0002-8763-8394)  
-[ResearchGate](https://www.researchgate.net/profile/Peyman-Salimi)  
-[Academia](https://sut.academia.edu/PeymanSalimi)  
-[zbMATH](https://zbmath.org/authors/?q=ai:salimi.peyman)  
-[MaRDI](https://portal.mardi4nfdi.de/wiki/Item:Q251343)  
-[Zenodo](https://doi.org/10.5281/zenodo.22142517)
-
-</td>
-<td width="34%" valign="top">
-
-**Technical Community**
-
-[DEV Community](https://dev.to/peymanpro)  
-[Stack Overflow](https://stackoverflow.com/users/33163948)
-
-<br/>
-
-Established identities and research-artifact records are listed here. Pending identity claims are intentionally omitted until independently verified.
-
-</td>
-</tr>
-</table>
-
-## Research background
-
-My academic work is grounded in **mathematics**, with research spanning fixed-point and best-proximity-point theory, fuzzy analysis, differential and integral equations, and related mathematical modelling.
-
-That background is not separate from my engineering work. It influences how I formulate problems, reason about algorithms, investigate learning methods, and turn research ideas into implementations that can be tested and evaluated.
+Related mathematical implementations include the [Convex Quadratic Programming Solver](https://github.com/peymanpro/Convex-Quadratic-Programming-Solver) and [Event-Driven Metaheuristic Optimization](https://github.com/peymanpro/Event-Driven-Metaheuristic-Optimization).
 
 ## Engineering foundations
 
+| Area | Technologies and methods |
+|---|---|
+| **Languages** | Python · C# · TypeScript · JavaScript |
+| **AI / ML** | Machine learning · Deep learning · LLM adaptation · RAG · embeddings · information retrieval · evaluation |
+| **Backend & infrastructure** | FastAPI · .NET / ASP.NET Core · Django REST Framework · PostgreSQL · Redis · messaging · distributed systems |
+| **Frontend** | React · Next.js · Angular · Blazor |
+| **Engineering practice** | API design · automated testing · CI · Docker · reproducible experiments · benchmarks · observability |
+
+## Research and professional links
+
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**Languages**
+**Professional**
 
-C# · Python · TypeScript · JavaScript
-
-**AI / ML**
-
-Machine Learning · Deep Learning · LLMs · RAG · Embeddings · Information Retrieval · Optimization
+[Website & research](https://psalimi.ir/en/research) · [Portfolio](https://peymanpro.github.io/portfolio/) · [LinkedIn](https://www.linkedin.com/in/psalimi) · [GitHub](https://github.com/peymanpro)
 
 </td>
 <td width="50%" valign="top">
 
-**Backend & systems**
+**Scholarly**
 
-.NET · ASP.NET Core · APIs · PostgreSQL · Redis · Messaging · Distributed Systems
-
-**Frontend**
-
-React · Next.js · Angular · Blazor
+[Google Scholar](https://scholar.google.com/citations?user=1By69aAAAAAJ&hl=en) · [ORCID](https://orcid.org/0000-0002-8763-8394) · [ResearchGate](https://www.researchgate.net/profile/Peyman-Salimi) · [Zenodo](https://doi.org/10.5281/zenodo.22142517)
 
 </td>
 </tr>
 </table>
-
-## How I work
-
-> **Understand the problem before optimizing the implementation.**
-
-I keep the important reasoning visible:
-
-<table>
-<tr>
-<td align="center" width="14%"><strong>01</strong><br/><sub>Define</sub></td>
-<td align="center">→</td>
-<td align="center" width="14%"><strong>02</strong><br/><sub>Baseline</sub></td>
-<td align="center">→</td>
-<td align="center" width="14%"><strong>03</strong><br/><sub>Choose</sub></td>
-<td align="center">→</td>
-<td align="center" width="14%"><strong>04</strong><br/><sub>Test</sub></td>
-<td align="center">→</td>
-<td align="center" width="14%"><strong>05</strong><br/><sub>Measure</sub></td>
-<td align="center">→</td>
-<td align="center" width="14%"><strong>06</strong><br/><sub>Analyze</sub></td>
-<td align="center">→</td>
-<td align="center" width="14%"><strong>07</strong><br/><sub>Improve</sub></td>
-</tr>
-</table>
-
-The goal is not simply to make a system work, but to understand **why it works, where it fails, and how its behavior can be improved**.
-
-## Current direction
-
-**Mathematical Reasoning + Machine Learning + AI Systems + Optimization + Software Engineering**
-
-I am particularly interested in AI systems that do more than generate output: systems that **retrieve evidence, reason over structured information, optimize decisions, learn from feedback, and remain inspectable and reliable**.
 
 ---
 
